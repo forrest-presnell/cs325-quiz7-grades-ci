@@ -22,4 +22,4 @@ def test_89_is_a_b():
 
 def test_score_above_100_raises_error():
     with pytest.raises(ValueError):
-        letter_grade(100)
+        letter_grade(101)
